@@ -1,0 +1,13 @@
+server:
+  port: 8085
+
+spring:
+  datasource:
+    url: jdbc:postgresql://ec2-54-235-193-0.compute-1.amazonaws.com:5432/d792ln8######
+    password: #################################
+    username: omflhylajmugfq
+    driver-class-name: "org.postgresql.Driver"
+  jpa:
+    database-platform: org.hibernate.dialect.PostgreSQL9Dialect
+    hibernate:
+      ddl-auto: create
